@@ -1,0 +1,236 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none !important;
+    list-style-type: none !important;
+    box-sizing: border-box !important;
+}
+
+.bg_img {
+    background-image: url(../images/png/Background.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    min-height: 100vh;
+
+}
+
+.max_w_811 {
+    max-width: 811px;
+}
+
+.max-w-318 {
+    max-width: 318px;
+}
+
+.max-w-785 {
+    max-width: 785x;
+}
+
+.max-w-389 {
+    max-width: 389px;
+}
+
+.max_width_1284 {
+    max-width: 1284px;
+}
+
+.show_text:hover .tasla {
+    opacity: 1;
+
+}
+
+.tasla {
+    transform: translate(-50%, -50%);
+    opacity: 0;
+}
+
+.contant_btn {
+    padding: 8px 28px;
+    border: 2px solid #FFFFFF;
+    border-radius: 8px;
+}
+
+
+.nav-btn {
+    padding: 8px 32px;
+    border: 2px solid #FFFFFF;
+    border-radius: 8px
+}
+
+.nav_bg {
+    background: #354D65;
+}
+
+.header-btn {
+    padding: 12px 28px;
+    border: 2px solid #FFFFFF;
+    border-radius: 8px;
+}
+
+.bg-sec-2 {
+    background: #161616;
+}
+
+.bg-sec-3 {
+    background: #1A191A;
+}
+
+
+.max_width362 {
+    max-width: 362px;
+}
+
+.max_width274 {
+    max-width: 274px;
+}
+
+.max_width303 {
+    max-width: 303px;
+}
+
+.max_width340 {
+    max-width: 340px;
+}
+
+.icon_1 {
+    transform: translateY(-38%);
+}
+
+input[type="checkbox"] {
+    display: none;
+}
+
+/* ------------------sec2------------------------- */
+.about_us {
+    position: absolute;
+    bottom: -105px;
+    right: -120px;
+}
+
+/* ------------------sec-5----------------------- */
+.max_w_417 {
+    max-width: 417px;
+}
+
+.max_w_700 {
+    max-width: 700px;
+}
+
+.bg-sec5 {
+    background: #1A191A;
+}
+
+.video_icon {
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+
+.star_1 {
+    top: 180px;
+    left: 5px;
+    z-index: -1;
+}
+
+.star2 {
+    bottom: -38px;
+    right: 10px;
+    z-index: 1
+}
+
+.input_form {
+    color: white;
+    border-bottom: 2px solid white;
+    outline: none;
+    box-shadow: none;
+    border: none;
+    background-color: transparent;
+    border-bottom: 2px solid white;
+
+}
+
+.form_dropdown {
+    background-color: transparent;
+    outline: none;
+    border: none;
+    box-shadow: none;
+    color: white;
+    border-bottom: 2px solid white;
+}
+
+.form_dropdown option {
+    background-color: #161616;
+    outline: none;
+    border: none;
+    box-shadow: none;
+    color: white;
+    border-bottom: 2px solid white;
+}
+
+.input_form::placeholder {
+    color: white;
+    font-weight: 500;
+
+}
+
+/* ------------------------------sec6---------------------------- */
+.max_w_461 {
+    max-width: 461px;
+}
+
+.max_w_659 {
+    max-width: 659px;
+}
+
+.outline-none {
+    outline: none;
+}
+
+.contact_us {
+    position: absolute;
+    left: 77px;
+    top: -38px;
+}
+
+@media (max-width:992px) {
+    .nav_bar {
+        flex-direction: column;
+        position: fixed;
+        justify-content: center;
+        align-items: center;
+        top: -100%;
+        left: 0%;
+        width: 100%;
+        height: 100vh;
+        background: #202020;
+        transition: all 1s cubic-bezier(0.19, 1, 0.22, 1);
+
+    }
+
+    label[for="humburger"] {
+        width: 40px;
+        height: 40px;
+        z-index: 4;
+        position: absolute;
+        right: 10px;
+        top: 25px;
+    }
+
+    label[for="humburger"]>span {
+        width: 100%;
+        height: 7px;
+        background: #c5b7b7;
+        display: flex;
+        margin-bottom: 6px;
+
+    }
+
+    #humburger:checked~.nav_bar {
+
+        top: 70px;
+    }
+}
