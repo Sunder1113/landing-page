@@ -16,6 +16,29 @@
 
 }
 
+
+
+:hover.box {
+    opacity: 1;
+}
+
+.box1 {
+    background: #000000cc;
+    opacity: 0;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    transition: all 300ms linear;
+    opacity: 0;
+}
+
+.box2 {
+    height: 38px;
+    width: 199px;
+
+}
+
 .max_w_811 {
     max-width: 811px;
 }
@@ -36,14 +59,12 @@
     max-width: 1284px;
 }
 
-.show_text:hover .tasla {
-    opacity: 1;
-
+.box1 {
+    opacity: 0;
 }
 
-.tasla {
-    transform: translate(-50%, -50%);
-    opacity: 0;
+.box1:hover {
+    opacity: 1;
 }
 
 .contant_btn {
