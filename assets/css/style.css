@@ -34,8 +34,10 @@
 }
 
 .box2 {
-    height: 38px;
-    width: 199px;
+    height: 270px;
+    width: 570px;
+
+
 
 }
 
@@ -238,7 +240,7 @@ input[type="checkbox"] {
         z-index: 4;
         position: absolute;
         right: 10px;
-        top: 25px;
+        top: 20px;
     }
 
     label[for="humburger"]>span {
@@ -251,7 +253,6 @@ input[type="checkbox"] {
     }
 
     #humburger:checked~.nav_bar {
-
-        top: 70px;
+        top: 0;
     }
 }

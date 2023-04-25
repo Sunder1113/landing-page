@@ -7,7 +7,7 @@
     --fs-24: 12px;
     --fs-30: 30px;
     --fs-32: 16px;
-    --fs-35: 1 0px;
+    --fs-35: 20px;
     --fs-56: 25px;
     --fs-100: 30px;
     --fs-110: 35px;
@@ -21,15 +21,6 @@
     --fw-semibold: 600;
     --fw-bold: 700;
 
-    /* ----------line-height------------ */
-    --lh-28: 28px;
-    --lh-32: 32px;
-    --lh-38: 38px;
-    --lh-50: 50px;
-    --lh-56: 56px;
-    --lh-100: 100px;
-    --lh-118: 118px;
-    --lh-130: 130px;
     /* ---------------text-white----------- */
     --color-white: white;
     --color-green: #00DDA880;
