@@ -257,7 +257,7 @@ input[type="checkbox"] {
     }
 }
 
-@media (min-width:1320px) {
+@media (min-width:1700px) {
     .containerxx {
         max-width: 1720px !important;
         padding-left: 12px;
@@ -267,4 +267,33 @@ input[type="checkbox"] {
 
     }
 
+}
+
+.square_animation {
+    animation-name: square;
+    animation-duration: 2s;
+
+    height: 2px;
+    width: 2px;
+    background: yellow;
+}
+
+
+@keyframes square {
+    0% {
+        transform: translate(220, 0);
+
+    }
+
+    25% {
+        transform: translate(200px, 50px);
+    }
+
+    75% {
+        transform: translate(-200px, 0);
+    }
+
+    25% {
+        transform: translate(0, -50px);
+    }
 }
