@@ -103,39 +103,6 @@
     font-size: var(--fs-138);
 }
 
-/* -------------------------------------line-height------------------------------- */
-.lh_28 {
-    line-height: var(--lh-28);
-}
-
-.lh_32 {
-    line-height: var(--lh-32);
-}
-
-.lh_38 {
-    line-height: var(--lh-38);
-}
-
-.lh_50 {
-    line-height: var(--lh-50);
-}
-
-.lh_56 {
-    line-height: var(--lh-56);
-}
-
-.lh_100 {
-    line-height: var(--lh-100);
-}
-
-.lh_118 {
-    line-height: var(--lh-118);
-}
-
-.lh_130 {
-    line-height: var(--lh-130);
-}
-
 /* ------------------------------font-weight----------------------------- */
 .fw_base {
     font-weight: var(--fw-base);
