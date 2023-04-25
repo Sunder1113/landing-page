@@ -16,6 +16,10 @@
 
 }
 
+.text-decoration {
+    text-decoration: underline !important;
+}
+
 
 
 :hover.box {
@@ -215,8 +219,16 @@ input[type="checkbox"] {
 
 .contact_us {
     position: absolute;
-    left: 77px;
-    top: -38px;
+    left: 0;
+    top: 0;
+}
+
+.line_height {
+    line-height: 110px;
+}
+
+.line_height_28 {
+    line-height: 38px !important;
 }
 
 
