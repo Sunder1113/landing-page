@@ -122,7 +122,7 @@
 }
 
 input[type="checkbox"] {
-    display: none;
+    display: none !important;
 }
 
 /* ------------------sec2------------------------- */
@@ -145,7 +145,7 @@ input[type="checkbox"] {
     background: #1A191A;
 }
 
-.video_icon {
+.video_icon-abs {
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
@@ -219,6 +219,7 @@ input[type="checkbox"] {
     top: -38px;
 }
 
+
 @media (max-width:992px) {
     .nav_bar {
         flex-direction: column;
@@ -240,7 +241,7 @@ input[type="checkbox"] {
         z-index: 4;
         position: absolute;
         right: 20px;
-        top: 20px;
+        top: 16px;
     }
 
     label[for="humburger"]>span {
